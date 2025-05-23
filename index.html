@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tashinga Tapfuma | Portfolio</title>
+<style>
+  /* Reset and base styles */
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background: #546e87;
+    color: #333;
+  }
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  header {
+    background-color: #005f73;
+    color: #f4f6f8;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+  }
+  nav {
+    background: #0a9396;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 0;
+  }
+  nav a {
+    color: #f4f6f8;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  nav a.active,
+  nav a:hover {
+    border-bottom: 2px solid #94d2bd;
+  }
+  main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  section {
+    margin-bottom: 3rem;
+  }
+  section h2 {
+    border-bottom: 2px solid #005f73;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+  /* Project card style */
+  .project {
+    background: #e0fbfc;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  }
+  .project h3 {
+    margin-top: 0;
+  }
+  .project-tech {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 0.3rem;
+    font-style: italic;
+  }
+  /* Contact form style */
+  form {
+    max-width: 400px;
+  }
+  label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+  }
+  button {
+    margin-top: 1rem;
+    background: #005f73;
+    color: #f4f6f8;
+    border: none;
+    padding: 0.7rem 1.3rem;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+  button:hover {
+    background: #0a9396;
+  }
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #001219;
+    color: #94d2bd;
+  }
+  /* Responsive nav */
+  @media (max-width: 600px) {
+    nav {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Tashinga Tapfuma</h1>
+  <p>Second-Year Computer Science Student & Aspiring Cybersecurity Specialist</p>
+</header>
+
+<nav>
+  <a href="#home" class="active">Home</a>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#education">Education</a>
+  <a href="#certifications">Certifications</a>
+  <a href="#experience">Experience</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main>
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>Hi, I'm Tashinga Tapfuma, a second-year Computer Science student at Midlands State University with a passion for programming and emerging technologies. I specialize in Python, Java, and web technologies, and have a strong interest in cybersecurity, artificial intelligence, and real-time systems. This portfolio highlights my academic journey, personal projects, and aspirations to become a cybersecurity specialist. Explore my work below and feel free to connect!</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a highly motivated Computer Science student with a passion for solving complex problems through programming. I have a growing interest in AI, cybersecurity, and full-stack development. My ultimate goal is to become a cybersecurity specialist and contribute to building secure systems that protect data and privacy.</p>
+    <p>In my free time, I enjoy reading technical books, experimenting with code, and exploring emerging tech in AI and security.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Automated Irrigation System</h3>
+      <p>A smart system designed to optimize water usage in agriculture. Using sensors to detect soil moisture levels, this system automates irrigation by controlling water valves. It’s programmed using Python and microcontrollers, with real-time monitoring via a web interface.</p>
+      <p class="project-tech"><strong>Technologies Used:</strong> Python, IoT sensors, HTML/CSS</p>
+    </div>
+
+    <div class="project">
+      <h3>Real-Time Face Recognition System</h3>
+      <p>Developed a real-time face recognition system using OpenCV and Python. The project uses machine learning algorithms to detect and recognize faces from a live camera feed, with potential applications in security and access control systems.</p>
+      <p class="project-tech"><strong>Technologies Used:</strong> Python, OpenCV, Machine Learning</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Programming Languages:</strong> Python, Java, HTML, CSS, JavaScript</li>
+      <li><strong>Technologies & Tools:</strong> Git & GitHub, OpenCV, MySQL, Arduino, Basic Linux & Bash scripting</li>
+      <li><strong>Soft Skills:</strong> Strong problem-solving, Team collaboration, Critical thinking, Self-motivated and eager to learn</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>Midlands State University</strong><br />
+    Bachelor of Science in Computer Science<br />
+    Year 2 (Expected Graduation: [Insert year])</p>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Cybersecurity Fundamentals Certificate</li>
+      <li>AI in Cybersecurity – Online Course</li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <p><strong>Junior IT Intern – Local Tech Startup (fictional placeholder)</strong><br />
+    Assisted in basic system maintenance, software testing, and participated in a web application development project. Gained hands-on experience with Git, front-end tools, and basic security practices.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>You can reach me via email or connect on GitHub and LinkedIn:</p>
+    <ul>
+      <li>Email: <a href=>tashmat811@gmail.com</a></li>
+      <li>GitHub: <a href="https://github.com/your-github" target="_blank" rel="noopener">github.com/your-github</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/tapfuma-tashinga-07ab5132b/" target="_blank" rel="noopener">linkedin.com/in/your-linkedin</a></li>
+    </ul>
+
+    <h3>Send me a message</h3>
+    <form id="contactForm">
+      <label for="name">Name</label>
+      <input id="name" type="text" required placeholder="Your Name" />
+      
+      <label for="email">Email</label>
+      <input id="email" type="email" required placeholder="your-email@example.com" />
+      
+      <label for="message">Message</label>
+      <textarea id="message" rows="5" required placeholder="Your message here"></textarea>
+      
+      <button type="submit">Send</button>
+    </form>
+    <p id="formResponse" style="color: green; margin-top: 0.5rem;"></p>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>Resume available upon request.</p>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Tashinga Tapfuma. All rights reserved.</p>
+</footer>
+
+<script>
+  // Navigation active link highlighting
+  const navLinks = document.querySelectorAll('nav a');
+  navLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+      navLinks.forEach(l => l.classList.remove('active'));
+      e.target.classList.add('active');
+    });
+  });
+
+  // Simple form submission handler (no backend)
+  const form = document.getElementById('contactForm');
+  const response = document.getElementById('formResponse');
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    // Just show a success message for demo
+    response.textContent = 'Thank you for reaching out! I will get back to you soon.';
+    form.reset();
+  });
+</script>
+
+</body>
+</html>
